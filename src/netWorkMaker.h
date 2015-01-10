@@ -90,7 +90,6 @@ public:
 			if (i % 10 == 0) {
 				//double rate = neureNetwork.getLearningRate() - 0.001;
 				//rate = rate >= 0.1 ? rate : 0.1;
-
 				//neureNetwork.setLearningRate(rate);
 				vector< double > errorAndPrecision = predit(data);
 				writeOut(errorAndPrecision);
